@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "name": "vercel-xhttp-relay",
+  "name": "obs-core",
   "rewrites": [
-    { "source": "/(.*)", "destination": "/api/index" }
+    { "source": "/:path*", "destination": "/api/index" }
   ],
   "trailingSlash": false
 }
